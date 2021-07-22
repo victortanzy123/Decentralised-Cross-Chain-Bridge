@@ -1,0 +1,29 @@
+{
+  "name": "decentralised-cross-chain-bridge",
+  "version": "1.0.0",
+  "description": "Cross-chain bridge for token migration between Ethereum and Binance Smart Chain",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victortanzy123/Decentralised-Cross-Chain-Bridge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victortanzy123/Decentralised-Cross-Chain-Bridge/issues"
+  },
+  "homepage": "https://github.com/victortanzy123/Decentralised-Cross-Chain-Bridge#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@openzeppelin/test-helpers": "^0.5.12",
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1"
+  }
+}
